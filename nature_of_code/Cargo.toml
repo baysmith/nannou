@@ -1,9 +1,10 @@
 [package]
 name = "nature_of_code"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
     "JoshuaBatty <joshpbatty@gmail.com>",
     "mitchmindtree <mitchell.nordine@gmail.com>",
+    "Bradley Smith <bradley@baysmith.com>",
 ]
 description = "An implementation of Dan Shiffman's The Nature of Code."
 readme = "README.md"
@@ -16,6 +17,18 @@ edition = "2018"
 [dev-dependencies]
 nannou = { version ="0.15.0", path = "../nannou" }
 
+[[example]]
+name = "i_1_random_walker_traditional"
+path = "introduction/i_1_random_walker_traditional.rs"
+[[example]]
+name = "i_2_random_distribution"
+path = "introduction/i_2_random_distribution.rs"
+[[example]]
+name = "exercise_i_1_walker_tends_to_down_right"
+path = "introduction/exercise_i_1_walker_tends_to_down_right.rs"
+[[example]]
+name = "i_3_random_walk_tends_to_right"
+path = "introduction/i_3_random_walk_tends_to_right.rs"
 # Chapter 1 Vectors
 [[example]]
 name = "1_1_bouncingball_novectors"
