@@ -33,6 +33,15 @@ path = "introduction/i_3_random_walk_tends_to_right.rs"
 [[example]]
 name = "i_4_gaussian"
 path = "introduction/i_4_gaussian.rs"
+[[example]]
+name = "i_5_acceptreject"
+path = "introduction/i_5_acceptreject.rs"
+[[example]]
+name = "i_6_noise_walk"
+path = "introduction/i_6_noise_walk.rs"
+[[example]]
+name = "tree_stochastic_noise"
+path = "introduction/tree_stochastic_noise.rs"
 # Chapter 1 Vectors
 [[example]]
 name = "1_1_bouncingball_novectors"

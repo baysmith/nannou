@@ -45,7 +45,7 @@ fn view(app: &App, model: &Model, frame: Frame) {
     draw.ellipse()
         .x_y(model.x, model.y)
         .w_h(16.0, 16.0)
-        .rgba(0.0, 0.0, 0.0, 10.0/255.0);
+        .rgba(0.0, 0.0, 0.0, 10.0 / 255.0);
 
     draw.to_frame(app, &frame).unwrap();
 }
