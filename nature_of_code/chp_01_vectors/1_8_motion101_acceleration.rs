@@ -36,10 +36,7 @@ impl Mover {
 
     fn update(&mut self) {
         self.velocity += self.acceleration;
-        self.velocity = vec2(
-            self.velocity.x.min(self.top_speed),
-            self.velocity.y.min(self.top_speed),
-        );
+        self.velocity = self.velocity.limit_magnitude(self.top_speed);
         self.position += self.velocity;
     }
 

@@ -38,10 +38,7 @@ impl Mover {
         self.acceleration = vec2(1.0 - random_f32() * 2.0, 1.0 - random_f32() * 2.0);
         self.acceleration *= random_f32() * 2.0;
         self.velocity += self.acceleration;
-        self.velocity = vec2(
-            self.velocity.x.min(self.top_speed),
-            self.velocity.y.min(self.top_speed),
-        );
+        self.velocity = self.velocity.limit_magnitude(self.top_speed);
         self.position += self.velocity;
     }
 
