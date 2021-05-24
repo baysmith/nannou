@@ -74,6 +74,9 @@ path = "chp_01_vectors/1_8_motion101_acceleration.rs"
 name = "1_9_motion101_acceleration"
 path = "chp_01_vectors/1_9_motion101_acceleration.rs"
 [[example]]
+name = "exercise_1_6_perlin_acceleration"
+path = "chp_01_vectors/exercise_1_6_perlin_acceleration.rs"
+[[example]]
 name = "1_10_motion101_acceleration"
 path = "chp_01_vectors/1_10_motion101_acceleration.rs"
 [[example]]
